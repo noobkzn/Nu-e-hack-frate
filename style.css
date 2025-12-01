@@ -1,0 +1,84 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body {
+  background: url("pzinvf.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 24px;
+  border-radius: 16px;
+  backdrop-filter: blur(4px);
+  color: aliceblue;
+}
+
+
+.card .heading h1 {
+  font-size: 36px;
+  text-align: center;
+  color: rgb(212, 92, 172);
+}
+
+.divider {
+  height: 2px;
+  background: white;
+  margin: 16px 0 32px;
+}
+
+
+.card .content h1 {
+  font-size: 28px;
+  text-align: center;
+  color: rgb(212, 92, 172);
+  margin-bottom: 12px;
+}
+
+.card .content p {
+  font-size: 20px;
+  line-height: 1.4;
+  color: white;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.card .content b {
+  color: rgb(255, 210, 240);
+}
+
+
+@media (max-width: 600px) {
+  .card {
+    padding: 18px;
+  }
+
+  .card .heading h1 {
+    font-size: 28px;
+  }
+
+  .card .content h1 {
+    font-size: 24px;
+  }
+
+  .card .content p {
+    font-size: 18px;
+   }
+}
